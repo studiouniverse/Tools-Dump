@@ -20,6 +20,10 @@ GameMaker is a full suite for creating 2D games across all major platforms (incl
 
 The full package. 2D/3D games which deploy to all platforms. Tons of tutorials are available, and it features a marketplace to purchase project solutions. I feel like **familiarising yourself with Unity is essential**. The down side is that it won’t build anything that will work in mobile browsers, which rules me out from using it for most projects.
 
+[Unreal Engine](https://www.unrealengine.com) : Free (5% cut)
+
+Unreal Engine is a lot like Unity, but I think it tailors itself more to teams, and much more 'advanced' developers. Unreal Engine will deliver high graphic capability and high performance, but you may find Unity is a smoother ride. Costs may be more user friendly for some developers.
+
 Text Editors
 ---
 
@@ -31,16 +35,27 @@ A lightweight Visual Studio, this editor is maintained by Microsoft (and updated
 
 A cleaner, smaller solution for writing your code if you’d rather pick and choose your features; “the hackable text editor”. Created by GitHub.
 
+App Publishing
+---
+
+[Cordova](https://cordova.apache.org/) : Free
+
+Cordova is a straight forward way to wrap up your web projects into iOS and Android applications. It’s open source so it’s free to use, although I find quite a few of the plugins are not updated as often as I would like. Works with Phaser and PlayCanvas games. You may have heard of PhoneGap, which is essentially the same thing.
+
+[Electron](https://electron.atom.io/) : Free
+
+Use Electron when you need to create desktop applications. It’s made by GitHub, and is used by a variety of teams including Atom and Slack.
+
 Asset Creation
 ---
 
-[Photoshop](https://www.adobe.com/uk/products/photoshop.html) : Paid, variety of licenses available
+[Photoshop](https://www.adobe.com/uk/products/photoshop.html) : Licensed
 
 Photoshop is king of image manipulation. You do have to pay around £10 a month for Photoshop, but I promise you, you will need Photoshop and the skills to use it. Tutorials are available everywhere for beginners. Gimp is a free alternative but I've never thought highly of it.
 
 [Unsplash](https://unsplash.com/) : Free
 
-Wonderful photography that you can use for any purpose.
+Wonderful photography that you can use for any purpose. If nothing else, it's great for inspiration.
 
 [Blender](https://www.blender.org/) : Free
 
@@ -84,7 +99,7 @@ Data Storage
 
 You should absolutely be using source control. GitHub is the most popular source control platform. You have to pay for private repositories, but it’s a service that’s never let me down. Try BitBucket as an alternative.
 
-[GitKraken](https://www.gitkraken.com/) : Paid, variety of licenses available
+[GitKraken](https://www.gitkraken.com/) : Licensed
 
 Personally I like using a GUI to manage my code commits. I like GitKraken a lot, but SourceTree is a free alternative.
 
@@ -95,17 +110,6 @@ Transmit let's you upload files to your server over FTP (Mac only). Filezilla is
 [Dropbox](https://www.dropbox.com/home) : Free (subscriptions available)
 
 For all your non-project files, you can upload them using Dropbox. One of the best features is that you can share files and folders with others. Google Photos is my preferred way of storing photography however.
-
-App Publishing
----
-
-[Cordova](https://cordova.apache.org/) : Free
-
-Cordova is a straight forward way to wrap up your web projects into iOS and Android applications. It’s open source so it’s free to use, although I find quite a few of the plugins are not updated as often as I would like. Works with Phaser and PlayCanvas games. You may have heard of PhoneGap, which is essentially the same thing.
-
-[Electron](https://electron.atom.io/) : Free
-
-Use Electron when you need to create desktop applications. It’s made by GitHub, and is used by a variety of teams including Atom and Slack.
 
 Management
 ---

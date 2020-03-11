@@ -1,42 +1,60 @@
 # Tools Dump
-Tools for web+game developers.
+Tools for web+game developers (I'm running MacOS).
 
 Game Engines
 ---
 
-[Phaser](https://phaser.io/phaser3) : Free
-
-**My go-to game engine for creating 2D browser games** - the games you create will be performant on desktop and mobile, and fast to develop too. Everything is written in Javascript, so it’s pretty easy to get into. I’m looking forward to Phaser 3 later this year.
-
-[Unity](https://unity3d.com/) : Free (subscriptions available)
-
-The full package. 2D/3D games which deploy to all platforms. Tons of tutorials are available, and it features a marketplace to purchase project solutions. I feel like **familiarising yourself with Unity is essential**. The down side is that it won’t build anything that will work in mobile browsers just yet, although some improvements to this were announced at the 2018 GDC conference.
-
 [Unreal Engine](https://www.unrealengine.com) : Free (12% cut)
 
-Unreal Engine is a lot like Unity, but I think it tailors itself better to larger teams, more ambitious projects, and generally more hands-on developers who love to dig a little deeper. Unreal Engine will deliver high graphic capability and high performance, but you may find Unity is a smoother ride. Costs may be more user friendly for some developers, especially with the recent change to 12% due to Fortnite's immense success.
+Unreal Engine is a lot like Unity, but I think it tailors itself better to larger teams, more ambitious projects, and generally more hands-on developers who love to dig a little deeper. Unreal Engine will deliver high graphic capability and high performance, but you may find Unity is a smoother ride. Costs may be more user friendly for some developers, especially with the recent change to 12% due to Fortnite's immense success, and the steady rise of the Epic Games Store.
 
 [GameMaker Studio 2](https://www.yoyogames.com/gamemaker) : Paid, variety of licenses available
 
-GameMaker is a full suite for creating 2D games across all major platforms (including browser). Some of my favourite games have been using Game Maker including Hotline Miami and Downwell. Game Maker 2 was released not too long ago.
+GameMaker is a full suite for creating 2D games across all major platforms (including browser). Some of my favourite games have been using Game Maker including Hotline Miami and Downwell.
+
+[Unity](https://unity3d.com/) : Free (subscriptions available)
+
+The full package. 2D/3D games which deploy to all platforms. Tons of tutorials are available, and it features a marketplace to purchase project solutions. I feel that Unity has lost some of it's popularity lately in favour of Unreal's messaging and pricing.
+
+[Phaser](https://phaser.io/phaser3) : Free
+
+My go-to game engine for creating 2D browser games - the games you create will be performant on desktop and mobile, and fast to develop too. Everything is written in Javascript, so it’s pretty easy to get into.
+
 
 Libraries
 ---
 
+[Hermes](https://github.com/studiouniverse/Hermes) : Free
+
+An elegant JS AIO library I created, containing the most useful jQuery shortcuts as well as the ability to add Update functions which can tick over as often as you like (perfect for setting up interactions and animations).
+
 [A-Frame](https://aframe.io/) : Free
 
-Create VR experiences for the browser (including mobile devices) using their easy-to-learn custom HTML syntax, and then hook up special functionality and events with your own Javascript using their pretty good documentation.
+Create VR experiences for the browser (including mobile devices) using an easy-to-learn custom HTML syntax, and then hook up special functionality and events with your own Javascript (the documentation is pretty good!). The abstraction also makes setting up (animated) 3D scenes incredibly simple, allowing you to ignore VR altogether.
+
+[VueJS](https://vuejs.org/) : Free
+
+
+[Tailwind](https://tailwindcss.com/) : Free
+
+The best rival I have seen for overthrowing Bootstraps dwindling reign.
+
 
 Text Editors
 ---
 
 [Sublime Text 3](https://www.sublimetext.com/3) : Free(ish)
 
-Sublime Text has been my go-to light-weight code editor for over 5 years. I would recommend switching to Visual Studio Code for bigger, longer-term projects, but Sublime is best for day-to-day tasks. It is truly sublime. Please pay for a license when you are ready to do so!
+Sublime Text has been my go-to light-weight code editor for over 7 years! I would recommend switching to Visual Studio Code for bigger, longer-term projects, but Sublime is best for day-to-day tasks. Please pay for a license when you are ready to do so!
 
 [Visual Studio Code](https://code.visualstudio.com/) : Free
 
 A lightweight Visual Studio, this editor is maintained by Microsoft (and updated regularly), and has a lot of features out of the box. Plays nicely with Unity on all operating systems.
+
+[Nova](https://panic.com/nova/) : Coming Soon (Paid)
+
+Not ready yet, but this IDE looks very exciting and is built by Panic - true MacOS pedigree.
+
 
 App Publishing
 ---
@@ -44,6 +62,9 @@ App Publishing
 [Cordova](https://cordova.apache.org/) : Free
 
 Cordova is a straight forward way to wrap up your web projects into iOS and Android applications. It’s open source so it’s free to use, although I find quite a few of the plugins are not updated as often as I would like. Works with Phaser and PlayCanvas games. You may have heard of PhoneGap, which is essentially the same thing.
+
+[Capacitor](https://capacitor.ionicframework.com/) : Free
+
 
 [Electron](https://electron.atom.io/) : Free
 
@@ -76,6 +97,7 @@ You want to make sure you are using a good font, and Google Fonts has tons of th
 
 With the release of Font Awesome 5, there are many more icons in many more styles for you to use in any kind of project. 
 
+
 Pipeline
 ---
 
@@ -83,13 +105,10 @@ Pipeline
 
 A nice to have (Mac only) build tool, which also sets up a basic http server with auto-refresh. Stick with Gulp on windows.
 
-[Babel](https://babeljs.io/) : Free
-
-Allows you to write your Javascript using the latest ES6 standards, and convert it to something that should work on IE.
-
 [Gulp](http://gulpjs.com/) : Free
 
-Node-based build tool, for automating your workflow (such as minifying files). Tons of plugins available.
+Node-based build tool, for automating your workflow (such as minifying files). Tons of plugins available. Available on Mac, Linux and Windows.
+
 
 Data Storage
 ---
@@ -104,7 +123,7 @@ Personally I like using a GUI to manage my code commits. I like GitKraken a lot,
 
 [Transmit](https://panic.com/transmit/) : Paid
 
-Transmit let's you upload files to your server over FTP (Mac only), and now on version 5 is better than ever. Filezilla is a free alternative, although I find it hard to go back.
+Transmit let's you upload files to your server over FTP (Mac only), and now on version 5 is better than ever. Filezilla is a free alternative, although I would find it hard to go back.
 
 [Dropbox](https://www.dropbox.com/home) : Free (subscriptions available)
 
@@ -113,6 +132,7 @@ For all your non-project files, you can upload them using Dropbox. One of the be
 [WeTransfer](https://wetransfer.com/) : Free (subscriptions available)
 
 At some point in time you will need to send a large file or bundle to someone. Don't clog up yours or their mailbox - use WeTransfer to send your files in style.
+
 
 Management
 ---
@@ -132,14 +152,3 @@ If you don’t have time to manage your own hosted blog, style it up, and work o
 [LastPass](https://lastpass.com) : Free (subscriptions available)
 
 LastPass allows you to use secure passwords everywhere you go on the web without having to worry about remembering any of them.
-
-Newsletters
----
-
-[Phaser](https://phaser.io/community/newsletter)
-
-The Phaser newsletter goes out every Monday and provides updates on Phaser 3, Phaser 2 community edition, and any noteworthy games or tutorials made with Phaser.
-
-[Gamedev.js Weekly](http://gamedevjsweekly.com/)
-
-Highlights everything going on in JS game development, including news, games and tutorials. Goes out every Friday.
